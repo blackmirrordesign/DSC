@@ -1,0 +1,25 @@
+{
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-es2015-rollup": "^3.0.0",
+        "bootstrap": "^4.1.1",
+        "grunt": "^1.0.2",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-contrib-watch": "^1.0.1",
+        "grunt-rollup": "^8.0.0",
+        "grunt-sass": "^2.1.0",
+        "jquery": "^3.3.1",
+        "js-cookie": "^2.2.0",
+        "load-grunt-tasks": "^3.5.2",
+        "rollup-plugin-babel": "^3.0.4"
+    },
+    "dependencies": {
+        "jquery-ui": "^1.12.1",
+        "jquery-ui-dist": "^1.12.1",
+        "mdbootstrap": "^4.5.4",
+        "popper": "^1.0.1",
+        "popper.js": "^1.14.3",
+        "semantic-ui": "^2.3.3"
+    }
+}

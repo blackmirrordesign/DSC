@@ -1,5 +1,5 @@
 /*******************************************************
- * Copyright (C) 2018-2019 BlackMirrorDesign - info@blackmirrordesign.com
+ * Copyright (C) 2018-2020 BlackMirrorDesign - info@blackmirrordesign.com
  *
  * This file is part of Downtown Seattle Counseling.
  *

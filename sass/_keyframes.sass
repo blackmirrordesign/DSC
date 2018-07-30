@@ -1,0 +1,71 @@
+// // keyframes mixin
+// =keyframes($name)
+//   @-webkit-keyframes #{$name}
+//     @content
+//   @-moz-keyframes #{$name}
+//     @content
+//   @-ms-keyframes #{$name}
+//     @content
+//   @keyframes #{$name}
+//     @content
+
+// // use of keyframes mixin
+// +keyframes(bgcolor)
+//   0%
+//     background-color: #ffccf2
+//   50%
+//     background-color: #ccffcc
+//   100%
+//     background-color: #ccffff
+
+// // keyframes mixin
+// =keyframes($name)
+//   @-webkit-keyframes #{$name}
+//     @content
+//   @-moz-keyframes #{$name}
+//     @content
+//   @-ms-keyframes #{$name}
+//     @content
+//   @keyframes #{$name}
+//     @content
+
+// // use of keyframes mixin
+// @mixin keyframes($logo)
+//     0%
+//       left: 0px
+//       top: 0px
+//       background-color: red
+
+//     50%
+//       left: 200px
+//       top: 0px
+//       background-color: blue
+  
+@mixin animation($animate...) 
+    $max: length($animate)
+    $animations: ''
+
+    @for $i from 1 through $max 
+        $animations: #{$animations + nth($animate, $i)}
+
+        @if $i < $max 
+            $animations: #{$animations + ", "}
+    -webkit-animation: $animations
+    -moz-animation:    $animations
+    -o-animation:      $animations
+    animation:         $animations
+
+
+@mixin keyframes($logo) 
+    @-webkit-keyframes #{$logo} 
+        @content
+    
+    @-moz-keyframes #{$logo} 
+        @content
+    
+    @-o-keyframes #{$logo} 
+        @content
+    
+    @keyframes #{$logo} 
+        @content
+    

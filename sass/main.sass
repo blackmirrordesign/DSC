@@ -1,0 +1,344 @@
+@import "colors"
+@import "bootstrap"
+@import "grid"
+@import "keyframes"
+
+$parent_menu_items: 4
+$sub_menu_items: 3
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+h4
+    font-size: 16px
+    font-weight: bold
+a
+    color: $black
+
+html, body 
+    margin: 0
+    padding: 0
+    font-size: 14px
+
+
+/*****PAGES****/
+nav
+    background-color: $lightPink  !important
+    margin-top: -55px
+    font-size: 16px
+#logo
+    width: 700px
+    float: left
+    position: fixed
+    top: 0
+    margin: 3em 1.5em
+.sticky-top
+    padding-bottom: 10px
+    
+.smaller #logo
+    max-width: 455px
+    position: fixed
+    z-index: 1030
+    margin: 7px 10px
+    
+/****HOME PAGE ***/
+.home
+    nav
+        float: right
+        clear: both
+        background-color: #00004d
+        margin-top: 170px
+        font-size: 16px
+        padding-bottom: 15px
+    .navHome
+        width: 100%
+    #logo
+        float: right
+        width: 100%
+        margin-top: 80px
+        img
+            float: right
+            width: 700px
+            margin-right: 15px
+    .smaller #logo
+        width: 30%
+        position: fixed
+        z-index: 1030
+        float: left
+        margin: 10px 30px
+        img
+            width: 100%
+    #wrapper
+        margin-top: 190px
+        .card
+            border: none
+            text-align: left
+            padding-bottom: 50px  
+            background: none 
+            .card-body
+                padding: .2em
+                h4
+                    color: $darkBlue
+                    margin-left: 10px
+                h5
+                    color: $black
+                    margin-left: 10px
+                    border-bottom: 1px $lightPink solid              
+.jumbotron
+    height: 718px
+    padding: 0
+    margin: 0 auto
+    background-image: url("../images/background.jpg")
+    background-size: cover
+    // position: relative
+    .lead
+        position: relative
+        top: 100px
+        text-align: center
+        
+.home-search
+    position: relative
+    top: 180px
+    padding: 0
+    clear: both
+    .input-group
+        background-color: $lightPink
+        border-radius: 5px
+        border: 1px $lightYellow solid
+        padding: 10px
+        .input-group-text
+            background-color: rgba(219, 182, 175, 0)
+            border: none
+            margin-right: 70px
+            font-weight: 500
+        .custom-select
+            margin-right: 30px
+            background: none
+            background-color: $lightGray
+            border-radius: 5px
+            border: 1px $lightYellow solid
+        .btn.btn-secondary
+            background-color: $lightGray
+            border-radius: 5px
+            border: 1px $lightYellow solid
+            width: 100px
+            height: 50px
+            text-align: left
+            
+.suggested-search
+    position: relative
+    top: 240px
+    z-index: 299
+    background-color:  $lightPink
+    border: 1px $lightYellow solid
+    border-radius: 5px
+    color: $white
+    .input-group-text
+        background-color: rgba(219, 182, 175, 0)
+        border: none
+        margin-right: 70px
+        font-weight: 500
+    p
+        text-align: justify
+    .suggest-right
+        padding: 15px  0 15px 80px
+        button
+            margin-right: 25px
+            margin-bottom: 30px
+            background-color: $lightGray
+            max-width: 150px
+            white-space: normal
+            padding: 5px 0 
+            border-radius: 5px
+            border: 1px $lightYellow solid
+            min-height: 50px
+
+/***** Pages Detaile , Membership, Cotact us, Login ***/
+#wrapper
+    margin: 20px auto
+    &.detail
+        img
+            width: 260px
+            float: right
+        .top-info
+            border-bottom: 1px solid $pink
+            padding-bottom: 10px
+            margin-left: 10px
+            h4
+                color: $darkBlue
+                display: inline-block
+                margin-top: 60px
+                font-size: 20px
+            h5
+                color: $black
+                margin-top: -6px
+            .pronouns
+                float: right
+                clear: right
+        .contactinfo
+            float: left
+        .hours
+            float: right
+            &.d-flex
+                ul
+                    margin-right: 30px
+                    li
+                        list-style: none
+                        &::before
+                            content: ""
+        .d-flex
+            ul
+                margin-right: 40px
+                li
+                    list-style: none
+                    &::before
+                        content: "- "
+    .highlight
+        border-bottom: 2px solid $pink
+        margin-top: 30px
+        padding-bottom: 5px
+        font-weight: bold
+        font-size: 18px
+    ul
+        margin-right: 40px
+        li
+            list-style: none  
+            margin-right: 30px   
+    .values
+        p
+            column-count: 2 
+    .row
+        margin-top: 12px
+        clear: both
+        width: 100%
+    &.contact, &.login
+        background-color: $lightYellow
+        border-radius: 5px
+        .highlight
+            font-size: 24px
+            color: $darkBlue
+    &.contact
+        padding: 10px 5px 50px 5px
+    &.membership
+        #oval 
+            width: 280px
+            height: 100px
+            background: #666666
+            margin: auto
+            margin-top: -10px
+            shape-outside: content-box
+            -moz-border-radius: 140px / 50px
+            -webkit-border-radius:  140px / 50px
+            border-radius:  140px / 50px
+            
+            p
+                text-align: center
+                padding-top: 24px
+                color: $yellow
+                font-weight: bold
+        a
+            color: $black
+        ul
+            li
+                font-size: 16px
+                font-weight: 700
+                line-height: 2.5
+                color: $darkBlue
+                &::before
+                    content: "-"
+        .top-info
+            border-bottom: 2px solid $pink
+            margin-top: 30px
+            padding-bottom: 10px
+        .bottom-info
+            border-bottom: 2px solid $pink
+            line-height: 4
+        h4, h5
+            color: $darkBlue
+        b
+            a
+                color: $black
+    &.dashboard
+        .top-tabs
+            background-color: $lightYellow
+            .btn
+                background-color: none !important
+        .ui-tabs .ui-tabs-panel
+            background-color: $lightYellow
+        .ui-tabs .ui-tabs-nav , .ui-widget.ui-widget-content
+            background: none !important
+            border: 0
+            li 
+                margin: 0
+                &.ui-tabs-active
+                    background-color: $lightYellow
+        .ui-state-active, .ui-widget-content .ui-state-active
+            background-color: $darkBlue !important
+        .accordion-content 
+            margin-left: 100px
+            max-width: 876px
+            background-color: $lightBlue2 !important
+        .ui-state-default, .ui-widget-content .ui-state-defaul
+            background-color: $lightBlue2 !important
+        .saveButton
+            clear: both
+        #practice
+            .input-group-text 
+                white-space: pre-wrap
+        #calendar 
+            border: 0
+            width: 100%
+            height: 795px
+            background-color: white
+
+
+            
+
+#footer
+    background-color: $darkBlue
+    color: $white
+    font-size: 14px
+    .top
+        background-color: $lightBlue
+        width: 100%
+        .logo
+            max-width: 450px
+            margin: 0 auto
+            background-color: none
+            padding: 10px
+    .container
+        max-width: 1366px
+        margin-top: 45px
+        margin-left: auto
+        .contactus
+            display: block
+        .middle
+            margin: 10px 40px 20px 25px
+            .other-services
+                font-weight: bold
+                margin-left: 16px
+        .other-counseling
+            font-weight: bold
+
+            
+        .footer-text
+            line-height: 2
+            list-style-type: none
+            a
+                color: $white
+                list-style-type: none
+        a
+                color: $white
+                list-style-type: none
+        
+    .row
+        margin: auto
+#copyright
+    text-align: center
+    border-top: 1px solid $pink
+    padding: 10px
+        
+
+    
+

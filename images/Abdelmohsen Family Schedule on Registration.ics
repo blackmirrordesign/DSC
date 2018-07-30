@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+PRODID:-//Events Calendar//iCal4j 1.0//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20180703T033623Z
+DTSTART:20181006T090000
+DTEND:20181006T100000
+SUMMARY:Rookies Indoor Soccer League #192616
+TZID:America/Los_Angeles
+UID:20180703T033623Z-uidGen@prod-activenet-rush-04w.an.active.tan
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Noah Elmohtoseb:maryouma.a11@gmail.com
+LOCATION:Dale Turner Y - Gym at Dale Turner Family YMCA -- Address: 19290 Aurora Ave North\, Seattle\, WA  98133
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180703T033623Z
+DTSTART:20181013T090000
+DTEND:20181013T100000
+SUMMARY:Rookies Indoor Soccer League #192616
+TZID:America/Los_Angeles
+UID:20180703T033624Z-uidGen@prod-activenet-rush-04w.an.active.tan
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Noah Elmohtoseb:maryouma.a11@gmail.com
+LOCATION:Dale Turner Y - Gym at Dale Turner Family YMCA -- Address: 19290 Aurora Ave North\, Seattle\, WA  98133
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180703T033623Z
+DTSTART:20181020T090000
+DTEND:20181020T100000
+SUMMARY:Rookies Indoor Soccer League #192616
+TZID:America/Los_Angeles
+UID:20180703T033625Z-uidGen@prod-activenet-rush-04w.an.active.tan
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Noah Elmohtoseb:maryouma.a11@gmail.com
+LOCATION:Dale Turner Y - Gym at Dale Turner Family YMCA -- Address: 19290 Aurora Ave North\, Seattle\, WA  98133
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180703T033623Z
+DTSTART:20181027T090000
+DTEND:20181027T100000
+SUMMARY:Rookies Indoor Soccer League #192616
+TZID:America/Los_Angeles
+UID:20180703T033626Z-uidGen@prod-activenet-rush-04w.an.active.tan
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Noah Elmohtoseb:maryouma.a11@gmail.com
+LOCATION:Dale Turner Y - Gym at Dale Turner Family YMCA -- Address: 19290 Aurora Ave North\, Seattle\, WA  98133
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180703T033623Z
+DTSTART:20181103T090000
+DTEND:20181103T100000
+SUMMARY:Rookies Indoor Soccer League #192616
+TZID:America/Los_Angeles
+UID:20180703T033627Z-uidGen@prod-activenet-rush-04w.an.active.tan
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Noah Elmohtoseb:maryouma.a11@gmail.com
+LOCATION:Dale Turner Y - Gym at Dale Turner Family YMCA -- Address: 19290 Aurora Ave North\, Seattle\, WA  98133
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180703T033623Z
+DTSTART:20181110T090000
+DTEND:20181110T100000
+SUMMARY:Rookies Indoor Soccer League #192616
+TZID:America/Los_Angeles
+UID:20180703T033628Z-uidGen@prod-activenet-rush-04w.an.active.tan
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Noah Elmohtoseb:maryouma.a11@gmail.com
+LOCATION:Dale Turner Y - Gym at Dale Turner Family YMCA -- Address: 19290 Aurora Ave North\, Seattle\, WA  98133
+END:VEVENT
+END:VCALENDAR

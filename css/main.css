@@ -6450,6 +6450,52 @@ a.text-dark:hover, a.text-dark:focus {
     float: left;
     width: 100%; } }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.dropdown-container {
+  margin: 20px auto 0;
+  font-size: 14px;
+  font-family: sans-serif; }
+
+.dropdown-button {
+  float: left;
+  width: 100%;
+  background: whitesmoke;
+  padding: 10px 12px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  box-sizing: border-box; }
+  .dropdown-button .dropdown-label,
+  .dropdown-button .dropdown-quantity {
+    float: left; }
+  .dropdown-button .dropdown-quantity {
+    margin-left: 4px; }
+  .dropdown-button .fa-filter {
+    float: right; }
+
+.dropdown-list {
+  float: left;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-top: none;
+  box-sizing: border-box;
+  background-color: #ffffff; }
+  .dropdown-list input[type="search"] {
+    padding: 5px 0; }
+  .dropdown-list ul {
+    margin: 10px 0;
+    max-height: 200px;
+    overflow-y: auto; }
+    .dropdown-list ul input[type="checkbox"] {
+      position: relative;
+      top: 2px; }
+
 * {
   padding: 0;
   margin: 0;
@@ -6520,7 +6566,7 @@ nav {
     width: 100%; }
 
 .home #wrapper {
-  margin-top: 190px; }
+  margin-top: 245px; }
   .home #wrapper .card {
     border: none;
     text-align: left;
@@ -6549,7 +6595,7 @@ nav {
 
 .home-search {
   position: relative;
-  top: 180px;
+  top: 250px;
   padding: 0;
   clear: both; }
   .home-search .input-group {
@@ -6578,7 +6624,7 @@ nav {
 
 .suggested-search {
   position: relative;
-  top: 240px;
+  top: 290px;
   z-index: 299;
   background-color: rgba(204, 153, 153, 0.9);
   border: 1px rgba(237, 213, 180, 0.5) solid;

@@ -405,17 +405,19 @@
                                     <option value="3">Three</option>
                                 </select>
                             </div>
-                            <div class="ui sub header">Multiple</div>
-                            <div class="ui fluid multiple selection dropdown">
-                                <input name="tags" type="hidden">
-                                <i class="dropdown icon"></i>
-                                <div class="default text">Skills</div>
-                                <div class="menu">
-                                    <div class="item" data-value="angular">Angular</div>
-                                    <div class="item" data-value="css">CSS</div>
-                                    <div class="item" data-value="design">Graphic Design</div>
+                            <div class="col-md-8">
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-button noselect">
+                                            <div class="dropdown-label">States</div>
+                                            <div class="dropdown-quantity">(<span class="quantity">Any</span>)</div>
+                                            <i class="fa fa-filter"></i>
+                                        </div>
+                                        <div class="dropdown-list" style="display: none;">
+                                            <input type="search" placeholder="Search states" class="dropdown-search"/>
+                                            <ul class="multi"></ul>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
                             <div class="saveButton float-right">
                                 <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
                             </div>
@@ -577,40 +579,21 @@
                         <div class="col-md-10 align-self-end accordion-content ">
                         <div class="form-group row ">
                             <label for="exampleFormControlSelect1" class="col-form-label">Monday</label>
-                                <div class="col-md-4 float-right ml-4">
-                        
-        <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+                                <div class="col-md-8">
+                                    <div class="dropdown-container">
+                                        <div class="dropdown-button noselect">
+                                            <div class="dropdown-label">States</div>
+                                            <div class="dropdown-quantity">(<span class="quantity">Any</span>)</div>
+                                            <i class="fa fa-filter"></i>
+                                        </div>
+                                        <div class="dropdown-list" style="display: none;">
+                                            <input type="search" placeholder="Search states" class="dropdown-search"/>
+                                            <ul class="multi"></ul>
+                                        </div>
+                                    </div>
+                                </div>
 
-        <link rel="stylesheet" href="css/bootstrap-multiselect/bootstrap-multiselect.css" type="text/css">
-        <script type="text/javascript" src="js/bootstrap-multiselect/bootstrap-multiselect.js"></script> -->
-        <div class="container">
-<div class="example">
-    <select id="option-droup-demo" multiple="multiple">
-        <optgroup label="Web Development">
-            <option value="jQuery">jQuery</option>
-            <option value="Bootstrap">Bootstrap</option>
-            <option value="HTML" selected="selected">HTML</option>
-            <option value="CSS" selected="selected">CSS</option>
-            <option value="Angular" disabled>Angular</option>
-        </optgroup>
-        <optgroup label="Programming Languages">
-            <option value="Java">Java</option>
-            <option value="csharp">C#</option>
-            <option value="Python" disabled>Python</option>
-        </optgroup>
-        <optgroup label="Databases">
-            <option value="MySQL">MySQL</option>
-            <option value="Oracle">Oracle</option>
-            <option value="MSSQL">MS SQL Server</option>
-        </optgroup>        
-    </select>
-
-</div>
-                    </div>
- </div>
-                    </div>
+                            </div>
                             <div class="saveButton float-right">
                                 <button type="submit" class="btn btn-secondary justify-content-end ">Submit</button>
                             </div>

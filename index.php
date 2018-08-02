@@ -134,7 +134,7 @@
             <!-- Page Features -->
             <div class="row text-left">
                 <div class="col-md-12 sm-12" >
-                    <p>Living our lives in the 21st century urban world of Seattle can be both exciting and stressful. The constant pressure we all feel to do more--and be more--in both our professional and personal lives can lead to rushed decisions and interactions that can have less than optimal results. Meet the Counselors to learn more about   Downtown Seattle Counseling, and read about each professional's credentials, philosophy, and methodology when working together with you.
+                    <p class="ml-4">Living our lives in the 21st century urban world of Seattle can be both exciting and stressful. The constant pressure we all feel to do more--and be more--in both our professional and personal lives can lead to rushed decisions and interactions that can have less than optimal results. Meet the Counselors to learn more about   Downtown Seattle Counseling, and read about each professional's credentials, philosophy, and methodology when working together with you.
                           </p>
                 </div>
                 <div class="col-lg-3 col-md-6 sm-4">

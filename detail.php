@@ -17,14 +17,8 @@
         <section class="container-fluid ml-4">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <div class="contactinfo col-md-4 align-self-start">
-                        Phone: <a href="tel:1-206-276-0325">206-276-0325</a></br>  
-                        Fax: <a href="tel:1-206-624-7626"> 206.624.7626 </a></br>
-                        Email Us: <a href="mailto:lindseyhewescounseling.com"> Email Lindsey Hewes</a></br>
-                        Website: <a href="mailto:lindseyhewescounseling.com"> lindseyhewescounseling.com </a>
-                    </div>
-                    <div class="hours d-flex  col-md-4 align-self-end">
-                        <ul>
+                    <div class="hours col-md-3">
+                        <ul class="col-md-1 float-left" >
                             <li>Monday</li>
                             <li>Tuesday</li>
                             <li>Wednesday</li>
@@ -33,7 +27,7 @@
                             <li >Saturday</li>
                             <li>Sunday</li>
                         </ul>
-                        <ul>
+                        <ul class="float-right m-0">
                             <li>9:00 - 5:00 PM</li>
                             <li>9:00 - 5:00 PM</li>
                             <li>9:00 - 5:00 PM</li>
@@ -42,6 +36,16 @@
                             <li>Closed</li>
                             <li>Closed</li>
                         </ul>
+                    </div>
+                    <div class="contactinfo col-md-4 align-self-start">
+                        <p>
+                        Phone: <a href="tel:1-206-276-0325">206-276-0325</a></br>  
+                        Fax: <a href="tel:1-206-624-7626"> 206.624.7626 </a></br>
+                        </p>
+                        <p>
+                        Email Us: <a href="mailto:lindseyhewescounseling.com"> Email Lindsey Hewes</a></br>
+                        Website: <a href="mailto:lindseyhewescounseling.com"> lindseyhewescounseling.com </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -120,7 +124,7 @@
                 <div class=" col-md-12 col-sm-12">
                     <h4 class="highlight"> Range of Focus:  </h4>
                     <div  class="d-flex">
-                        <ul class=" col-md-3 col-sm-12">
+                        <ul class=" col-md-3 col-sm-12 m-1">
                             <li>Anxiety</li>
                             <li>Couples Counseling</li>
                             <li>Panic Attacks	</li>
@@ -130,7 +134,7 @@
                             <li>Phobias	</li>
                             <li>Confidence/self-esteem</li>
                         </ul>
-                        <ul class=" col-md-3 col-sm-12">
+                        <ul class=" col-md-3 col-sm-12 m-1">
                             <li>Bereavement</li>
                             <li>Depression & Anxiety</li>
                             <li>Relationship/Interpersonal</li>
@@ -140,7 +144,7 @@
                             <li>Seasonal Affective Disorder</li>
                             <li>Loss of meaning</li>
                         </ul>
-                        <ul class=" col-md-3 col-sm-12">
+                        <ul class=" col-md-3 col-sm-12 m-1">
                             <li>Codependency Issues	</li>
                             <li>GLBTQ friendly</li>
                             <li>Sense of Self</li>
@@ -150,7 +154,7 @@
                             <li>Stress & Coping</li>
                             <li>Relationship/self-esteem</li>
                         </ul>
-                        <ul class=" col-md-3 col-sm-12">
+                        <ul class=" col-md-3 col-sm-12 m-1">
                             <li>Communication Skills</li>
                             <li>Loss and Grief</li>
                             <li>Trauma</li>
@@ -163,13 +167,13 @@
                 </div>
                 <div class=" col-md-12 col-sm-12 values">
                     <h4 class="highlight ">Values & Philosophy:  </h4>
-                    <p>Healthy connection is crucial to our well-being. I work with individuals and couples using a mindfulness-based and holistic approach. Research shows that mindful living can build new neuropathways in our brains, making positive and sustainable change.</p>
+                    <p class="ml-4">Healthy connection is crucial to our well-being. I work with individuals and couples using a mindfulness-based and holistic approach. Research shows that mindful living can build new neuropathways in our brains, making positive and sustainable change.</p>
                 </div>
                 <div class=" col-md-12 col-sm-12">
                     <h4 class="highlight">Theraputic Technic & Methodology:   </h4>
-                    <p>I draw from, and am trained in, the following theories:</p>
+                    <p class="ml-4">I draw from, and am trained in, the following theories:</p>
                     <div  class="d-flex">
-                        <ul class=" col-md-4 col-sm-12">
+                        <ul class=" col-md-4 col-sm-12 ml-4">
                             <li>Acceptance Commitment Therapy	</li>
                             <li>Gestalt/ Existential Therapy		</li>
                             <li>Focusing	</li>

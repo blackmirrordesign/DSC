@@ -42,7 +42,7 @@
                             <li>Dozens of restaurants in walking distance</li>
                             <li>Fast access to I-5 north & south ramps</li>
                             <li>On-site covered parking & adjacent lot parking</li>
-                            <li>» Read more about amenities & fees</li>                       
+                            <li> <a href="leaseinfo.php">» Read more about amenities & fees</a></li>                       
                         </ul>
                         <div class="col-md-8 col-sm-12 float-right">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -101,7 +101,7 @@
                             <li>File room & locking file storage</li>
                             <li>Computer workstation</li>
                             <li>Fax machine & copier</li>
-                            <li> Read more about amenities & fees »</li>
+                            <li><a href="leaseinfo.php"> Read more about amenities & fees » </a></li>
                         </ul>
                 </div>
                 </div>

@@ -2,6 +2,10 @@
 @import "bootstrap"
 @import "grid"
 @import "multiselect"
+@import "tabs"
+@import "scss/fontawesome.scss"
+@import "scss/solid.scss"
+@import "scss/regular.scss"
 
 $parent_menu_items: 4
 $sub_menu_items: 3
@@ -20,6 +24,7 @@ html, body
     margin: 0
     padding: 0
     font-size: 14px
+    
 
 
 /*****PAGES****/
@@ -112,7 +117,7 @@ nav
             border: none
             margin-right: 70px
             font-weight: 500
-        .custom-select
+        .custom-select 
             margin-right: 30px
             background: none
             background-color: $lightGray
@@ -212,6 +217,7 @@ nav
         margin-top: 12px
         clear: both
         width: 100%
+        margin-left: 0
     &.contact, &.login
         background-color: $lightYellow
         border-radius: 5px
@@ -220,7 +226,8 @@ nav
             color: $darkBlue
     &.contact
         padding: 10px 5px 50px 5px
-    &.membership
+
+    &.membership ,&.leasinfo
         #oval 
             width: 280px
             height: 100px
@@ -231,14 +238,26 @@ nav
             -moz-border-radius: 140px / 50px
             -webkit-border-radius:  140px / 50px
             border-radius:  140px / 50px
-            
             p
                 text-align: center
                 padding-top: 24px
                 color: $yellow
                 font-weight: bold
+        .top-info
+            border-bottom: 2px solid $pink
+            margin-top: 30px
+            padding-bottom: 10px
+        .bottom-info
+            border-bottom: 2px solid $pink
+            line-height: 4
         a
             color: $black
+        h4, h5
+            color: $darkBlue
+        b
+            a
+                color: $black
+    &.membership
         ul
             li
                 font-size: 16px
@@ -247,43 +266,60 @@ nav
                 color: $darkBlue
                 &::before
                     content: "-"
-        .top-info
-            border-bottom: 2px solid $pink
-            margin-top: 30px
-            padding-bottom: 10px
-        .bottom-info
-            border-bottom: 2px solid $pink
-            line-height: 4
-        h4, h5
-            color: $darkBlue
-        b
-            a
-                color: $black
     &.dashboard
+        
         .top-tabs
             background-color: $lightYellow
             .btn
                 background-color: none !important
         .ui-tabs .ui-tabs-panel
             background-color: $lightYellow
-        .ui-tabs .ui-tabs-nav , .ui-widget.ui-widget-content
+        .ui-tabs .ui-tabs-nav, .ui-widget.ui-widget-content
             background: none !important
             border: 0
+            padding: 0
+            button
+                background-color: $gray !important
+                border-radius: 10px
+                color: $black
+        .top-tabs-dash
+            line-height: 3
+            text-align: center
             li 
                 margin: 0
-                &.ui-tabs-active
-                    background-color: $lightYellow
+                min-width: 200px
+                border-radius: 10px 10px 0 0
+                font-weight: bold
+                border: 0
+                padding-bottom: 0
+            .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited
+                background-color: #f6ead9 !important
+                min-width: 200px
+                text-align: center
+                color: $darkBlue
+                border-radius: 10px 10px 0 0
+                font-weight: bold
+            .ui-tabs .ui-tabs-nav .ui-tabs-anchor
+                text-align: center
         .ui-state-active, .ui-widget-content .ui-state-active
             background-color: $darkBlue !important
+            margin-bottom: 0 !important
+        .ui-tabs .ui-tabs-nav .ui-tabs-anchor
+            min-width: 200px
+            background-color: $gray
+            border-radius: 10px 10px 0 0
         .accordion-content 
             margin-left: 100px
-            max-width: 876px
+            max-width: 905px
             background-color: $lightBlue2 !important
+            margin-bottom: 15px
         .ui-state-default, .ui-widget-content .ui-state-defaul
             background-color: $lightBlue2 !important
         .saveButton
             clear: both
         #practice
+            .input-group-prepend
+                margin-right: -5px
             .input-group-text 
                 white-space: pre-wrap
         #calendar 
@@ -291,10 +327,20 @@ nav
             width: 100%
             height: 795px
             background-color: white
+        .ui-widget .ui-widget
+            h3
+                &::before
+                    float: right
+                    font-family: FontAwesome
+                    content: "\f170"
+                    font-size: 1.5em 
+        // input[type=checkbox]
 
-
+        //     /* Might want to wrap a span around your checkbox text */
+        //     .checkboxtext       /* Checkbox text */
+        //         font-size: 110%;
+        //         display: inline
             
-
 #footer
     background-color: $darkBlue
     color: $white
@@ -308,18 +354,23 @@ nav
             background-color: none
             padding: 10px
     .container
-        max-width: 1366px
+        max-width: 1300px
         margin-top: 45px
         margin-left: auto
+        .first
+            margin-left: -1px
+            margin-right: -10px
+        .last
+            text-align: center
+            margin: 0 auto
+            margin-right: -80px
+            h6
+                padding-left: 2em
         .contactus
             display: block
-        .middle
-            margin: 10px 40px 20px 25px
-            .other-services
-                font-weight: bold
-                margin-left: 16px
         .other-counseling
             font-weight: bold
+        
 
             
         .footer-text

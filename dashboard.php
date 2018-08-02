@@ -8,22 +8,19 @@
 
         <div class="row" id="tabs">
             <div class="col-md-12 ui-tabs"  >
-                <ul class="ui-tabs-nav.">
-                    <li class="ui-tabs-collapsible"><a href="#tabs-1">Schedule</a></li>
-                    <li class="ui-tabs-collapsible"><a href="#tabs-2">Profile</a></li>
-                    <li class="ui-tabs-collapsible"><a href="#tabs-3">Large button</a></li>
+                <ul class="ui-tabs-nav top-tabs-dash">
+                    <li class="ui-tabs-collapsible text-center"><a href="#tabs-1">Schedule</a></li>
+                    <li class="ui-tabs-collapsible text-center"><a href="#tabs-2">Profile</a></li>
+                    <li class="ui-tabs-collapsible text-center"><a href="#tabs-3">Large button</a></li>
                 </ul>
-                <div id="tabs-1" class="ui-tabs-panel">
-                                        
-                    <iframe id="calendar" src="http://localhost/DSC/calendar.php">
+                <div id="tabs-1" class="ui-tabs-panel">                       
+                    <iframe id="calendar" src="http://www.dsc.blackmirrordesign.com/calendar.php">
                     <p>Your browser does not support iframes.</p>
                     </iframe>
-
-
                 </div>
                 <div id="tabs-2" class="ui-tabs-panel">
                     <div id="accordion">
-                        <h3>GENERAL</h3>
+                        <h3 class="mb-2">GENERAL</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                             <form clsss="row">
                                 <div class=" col-md-8 float-left p-0 m-0">
@@ -88,16 +85,16 @@
                                     </div>
                                 </div>
                                 <div class="saveButton float-right">
-                                    <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
+                                    <button type="submit" class="btn btn-secondary justify-content-end  mt-4">Save</button>
                                 </div>
                             </form>
                         </div>
-                        <h3>OPERATIONS</h3>
+                        <h3 class="mb-2">OPERATIONS</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                             <div class="row">
                                 <div class=" col-md-7 float-left">
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label">Monday</label>
+                                        <label for="exampleFormControlSelect1" class=" col-md-2 col-form-label">Monday</label>
                                         <div class="col-md-4 float-right ml-4">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -114,7 +111,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class=" col-md-1 col-form-label">to</label>
                                         <div class="col-md-4 float-right">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -133,7 +130,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label">Tuesday</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-2  col-form-label">Tuesday</label>
                                         <div class="col-md-4 float-right ml-4">
                                             <select class="form-control " id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -150,7 +147,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class=" col-md-1  col-form-label">to</label>
                                         <div class="col-md-4 float-right">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -169,8 +166,8 @@
                                         </div>
                                     </div>
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label">Wednesday</label>
-                                        <div class="col-md-4 float-right">
+                                        <label for="exampleFormControlSelect1" class="col-md-2 col-form-label">Wednesday</label>
+                                        <div class="col-md-4 float-right  ml-4">
                                             <select class="form-control m-auto" id="exampleFormControlSelect1">
                                                 <option>12</option>
                                                 <option>1</option>
@@ -186,7 +183,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-1 col-form-label">to</label>
                                         <div class="col-md-4 float-right">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -205,8 +202,8 @@
                                         </div>
                                     </div>
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label">Thursday</label>
-                                        <div class="col-md-4 float-right ml-3">
+                                        <label for="exampleFormControlSelect1" class="col-md-2 col-form-label">Thursday</label>
+                                        <div class="col-md-4 float-right  ml-4">
                                             <select class="form-control m-auto" id="exampleFormControlSelect1">
                                                 <option>12</option>
                                                 <option>1</option>
@@ -222,7 +219,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-1 col-form-label">to</label>
                                         <div class="col-md-4 float-right">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -241,8 +238,8 @@
                                         </div>
                                     </div>
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label pr-3">Friday</label>
-                                        <div class="col-md-4 float-right ml-4 ">
+                                        <label for="exampleFormControlSelect1" class="col-md-2  col-form-label pr-3">Friday</label>
+                                        <div class="col-md-4 float-righ  ml-4">
                                             <select class="form-control m-auto" id="exampleFormControlSelect1">
                                                 <option>12</option>
                                                 <option>1</option>
@@ -258,7 +255,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-1 col-form-label">to</label>
                                         <div class="col-md-4 float-right">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -277,7 +274,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label">Saturday</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-2 col-form-label">Saturday</label>
                                         <div class="col-md-4 float-right ml-4">
                                             <select class="form-control m-auto" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -294,7 +291,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-1 col-form-label">to</label>
                                         <div class="col-md-4 float-right">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -313,7 +310,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row ">
-                                        <label for="exampleFormControlSelect1" class="col-form-label">Sunday</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-2 col-form-label">Sunday</label>
                                         <div class="col-md-4 float-right ml-4">
                                             <select class="form-control m-auto" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -330,7 +327,7 @@
                                                 <option>11</option>
                                             </select>
                                         </div>
-                                        <label for="exampleFormControlSelect1" class="col-form-label">to</label>
+                                        <label for="exampleFormControlSelect1" class="col-md-1 col-form-label">to</label>
                                         <div class="col-md-4 float-right ">
                                             <select class="form-control" id="exampleFormControlSelect1">
                                                 <option>12</option>
@@ -351,61 +348,61 @@
                                 </div>
                                 <div class="col-md-4 text-right float-right">
                                     <div class="form-check  row">
-                                        <label class="form-check-label col-md-6 text-left  float-left" for="defaultCheck1">
+                                        <label class="form-check-label col-md-6 text-left  float-left mb-2" for="defaultCheck1">
                                         cash
                                         </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
                                     </div>
                                     <div class="form-check  row">
-                                        <label class="form-check-label col-md-6  text-left float-left" for="defaultCheck1"> Money Order
+                                        <label class="form-check-label col-md-6  text-left float-left mb-2" for="defaultCheck1"> Money Order
                                         </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
-                                    </div>
-                                    <div class="form-check row">
-                                        <label class="form-check-label col-md-6  text-left float-left" for="defaultCheck1">
-                                        Visa
-                                        </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
-                                    </div>
-                                    <div class="form-check  row ">
-                                        <label class="form-check-label col-md-6  text-left float-left" for="defaultCheck1">
-                                        MasterCard  </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
-                                    </div>
-                                    <div class="form-check  row">
-                                        <label class="form-check-label col-md-6  text-left float-left" for="defaultCheck1">
-                                        AmericanExpress
-                                        </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
-                                    </div>
-                                    <div class="form-check  row">
-                                        <label class="form-check-label col-md-6  text-left float-left" for="defaultCheck1">
-                                        PayPal  </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
                                     </div>
                                     <div class="form-check row ">
-                                        <label class="form-check-label col-md-6  text-left float-left" for="defaultCheck1">
+                                        <label class="form-check-label col-md-6  text-left float-left mb-2 " for="defaultCheck1">
+                                        Visa
+                                        </label>
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                    <div class="form-check  row ">
+                                        <label class="form-check-label col-md-6  text-left float-left mb-2" for="defaultCheck1">
+                                        MasterCard  </label>
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                    <div class="form-check  row">
+                                        <label class="form-check-label col-md-6  text-left float-left mb-2" for="defaultCheck1">
+                                        AmericanExpress
+                                        </label>
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                    <div class="form-check  row">
+                                        <label class="form-check-label col-md-6  text-left float-left mb-2" for="defaultCheck1">
+                                        PayPal  </label>
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
+                                    </div>
+                                    <div class="form-check row ">
+                                        <label class="form-check-label col-md-6  text-left float-left mb-2" for="defaultCheck1">
                                         Bitcoin
                                         </label>
-                                        <input class="form-check-input col-md-4 float-right" type="checkbox" value="" id="defaultCheck1">
+                                        <input class="form-check-input col-md-4 float-right mb-2" type="checkbox" value="" id="defaultCheck1">
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row mt-1 mb-0">
+                            <div class="form-group row mt-1 mb-4">
                                 <label for="exampleTextarea"  class="col-2 col-form-label">Quote(Optional)</label>
                                 <div class="col-md-12 float-right ">
                                     <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
                                 </div>
                             </div>
-                            <div class="form-group row mt-1 mb-0">
-                                <select class="custom-select" size="3">
+                            <!-- <div class="form-group row mt-1 mb-0">
+                                <select class="custom-select">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
                                 </select>
-                            </div>
-                            <div class="col-md-8">
+                            </div> -->
+                            <div class="col-md-12 mb-4">
                                     <div class="dropdown-container">
                                         <div class="dropdown-button noselect">
                                             <div class="dropdown-label">States</div>
@@ -419,10 +416,10 @@
                                     </div>
                                 </div>
                             <div class="saveButton float-right">
-                                <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
+                                <button type="submit" class="btn btn-secondary justify-content-end mt-4">Save</button>
                             </div>
                         </div>
-                        <h3>EDUCATION</h3>
+                        <h3 class="mb-2">EDUCATION</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                             <form>
                                 <div class="form-group row">
@@ -443,15 +440,15 @@
                             </form>
                             <table class="col-md-12">
                                 <tbody >
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record" required>   
-                                            <p class="card-text float-left"> Master of Arts - Sociology, Columbia University 2018</p>
+                                            <p class="card-text float-left m-auto"> Master of Arts - Sociology, Columbia University 2018</p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-degree">X</a> 
                                         </td>
                                     </tr>
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record">   
                                             <p class="card-text float-left"> Degree 2 entered</p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-degree">X</a> 
@@ -460,10 +457,10 @@
                                 </tbody>
                             </table>
                             <div class="saveButton float-right">
-                                <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
+                                <button type="submit" class="btn btn-secondary justify-content-end  mt-4">Save</button>
                             </div>
                         </div>
-                        <h3>LICENSES</h3>
+                        <h3 class="mb-2">LICENSES</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                             <form>
                                 <div class="form-group row">
@@ -480,22 +477,22 @@
                             </form>
                             <table class="col-md-12">
                                 <tbody >
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record" required>   
                                             <p class="card-text float-left"> Mental Health Counselors License , License: LH 00011332</p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-licenses">X</a> 
                                         </td>
                                     </tr>
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record">   
                                             <p class="card-text float-left"> License 2 entered </p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-licenses">X</a> 
                                         </td>
                                     </tr>
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record">   
                                             <p class="card-text float-left"> License 3 entered </p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-licenses">X</a> 
@@ -504,10 +501,10 @@
                                 </tbody>
                             </table>
                             <div class="saveButton float-right">
-                                <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
+                                <button type="submit" class="btn btn-secondary justify-content-end  mt-4 ">Save</button>
                             </div>
                         </div>
-                        <h3>MEMBERSHIPS</h3>
+                        <h3 class="mb-2">MEMBERSHIPS</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                             <form>
                                 <div class="form-group row">
@@ -528,8 +525,8 @@
                             </form>
                             <table class="col-md-12">
                                 <tbody >
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record" required>   
                                             <p class="card-text float-left"> Evergreen Art Therapy Association,  2018 - Present </p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-membership">X</a> 
@@ -538,10 +535,10 @@
                                 </tbody>
                             </table>
                             <div class="saveButton float-right">
-                                <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
+                                <button type="submit" class="btn btn-secondary justify-content-end  mt-4 ">Save</button>
                             </div>
                         </div>
-                        <h3>REGISTRATIONS</h3>
+                        <h3 class="mb-2">REGISTRATIONS</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                             <form>
                                 <div class="form-group row">
@@ -562,8 +559,8 @@
                             </form>
                             <table class="col-md-12">
                                 <tbody >
-                                    <tr class="card col-md-12 m-1">
-                                        <td class=" card-body p-0">
+                                    <tr class="card col-md-12 m-2">
+                                        <td class=" card-body p-1">
                                             <input type="checkbox"  class="float-left mr-2" name="record" required>   
                                             <p class="card-text float-left"> Registration Detail 1,  2018 - Present </p>
                                             <a href="#" class="btn btn-outline-secondary float-right  justify-content-end delete-row-registration">X</a> 
@@ -572,14 +569,14 @@
                                 </tbody>
                             </table>
                             <div class="saveButton float-right">
-                                <button type="submit" class="btn btn-secondary justify-content-end ">Save</button>
+                                <button type="submit" class="btn btn-secondary justify-content-end  mt-4">Save</button>
                             </div>
                         </div>
-                        <h3>FOCUS</h3>
+                        <h3 class="mb-2">FOCUS</h3>
                         <div class="col-md-10 align-self-end accordion-content ">
                         <div class="form-group row ">
-                            <label for="exampleFormControlSelect1" class="col-form-label">Monday</label>
-                                <div class="col-md-8">
+                            <label for="exampleFormControlSelect1" class="col-form-label">Category  Name:</label>
+                                <div class="col-md-10">
                                     <div class="dropdown-container">
                                         <div class="dropdown-button noselect">
                                             <div class="dropdown-label">States</div>
@@ -600,7 +597,7 @@
                         </div>
                         <h3 >PRACTICE</h3>
                         <div class="col-md-10 align-self-end accordion-content" id="practice">
-                            <div class="input-group mt-0">
+                            <div class="input-group mt-3">
                                 <div class="input-group-prepend col-md-2 p-0 ">
                                     <span class="input-group-text">Scope of  Practice</span>
                                 </div>
@@ -619,7 +616,7 @@
                                 <textarea class="form-control col-md-10" aria-label="TechniqueMethodology"  rows="6"></textarea>
                             </div>
                             <div class="saveButton float-right">
-                                <button type="submit" class="btn btn-secondary justify-content-end ">Submit</button>
+                                <button type="submit" class="btn btn-secondary justify-content-end  mt-4 ">save</button>
                             </div>
                         </div>
                     </div>

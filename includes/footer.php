@@ -8,14 +8,14 @@
         <!-- /.row -->
         <div class="container">
         <div class="row ">
-            <div class="col-lg-2 col-md-2 mb-4">
-                <div>
+            <div class="col-lg-3 col-md-3 mb-4 first">
+              
                     <p class="footer-text">
                         <address>
                         <strong>Downtown Seattle Counseling</strong></br>
-                       <a href="https://goo.gl/maps/dHPH5ZmccH62" target="_blank"> The Cabrini Medical Tower
+                       <a href="https://goo.gl/maps/dHPH5ZmccH62" target="_blank"> The Cabrini Medical Tower</br>
                         901 Boren Ave.
-                        Suite 1300
+                        Suite 1300</br>
                         Seattle, WA 98104 </a>
                         </address>
                     </p>
@@ -27,7 +27,7 @@
                     <p class="card-text"><a href="#" target="_blank">Privacy Statement
                         Disclaimer</a>
                     </p>
-                </div>
+
             </div>
             <div class="middle">
             <h6 class="other-services row">Other Services:</h6>
@@ -64,10 +64,12 @@
                 </ul>
             </div>
             </div>
-            <div class="col-lg-3 col-md-3 mb-4">
+            <div class="col-lg-3 col-md-3 mb-4 last">
             <h6 class="other-counseling row">Counseling and Therapy Offices:</h6>
                 <ul class="footer-text">
-                    <li><a href="#">Accord Associates Offices</a></li>
+                    <li><a href="#">Accord Associates Offices</a>
+                    <img src="images/accord.png" alt="Accord Logo"></li>
+                    
                 </ul>
            
             </div>

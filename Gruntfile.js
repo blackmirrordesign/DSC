@@ -8,7 +8,6 @@ let babel = require('rollup-plugin-babel'),
         'node_modules/bootstrap/dist/js/bootstrap.js',
         'js/build/temp.js'
 
-
     ];
 
 module.exports = (grunt) => {
@@ -89,7 +88,8 @@ module.exports = (grunt) => {
             sass: {
                 tasks: ['dev_sass'],
                 files: [
-                    'sass/*.sass'
+                    'sass/*.sass',
+                    'scss/*.scss'
                 ]
             }
         }

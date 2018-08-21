@@ -2,20 +2,27 @@ $grid-columns: 12 !default;
 $grid-gutter-width: 30px !default;
 
 @mixin size($size)  
+    @if $size == Xsmall  
+        @media screen and (max-width: 24.99em)    //max-width: 639px
+            @content
     @if $size == small  
-        @media screen and (max-width: 39.99em)  
+        @media screen and (min-width: 25em) and (max-width: 39.99em)   //max-width: 639px
+            @content
+    @if $size == small-down 
+        @media screen and (max-width: 39.99em)  //max-width: 639px
             @content
     @else if $size == medium  
-        @media screen and (min-width: 40em) and (max-width: 63.99em)  
-            @content
-    @else if $size == large
-        @media screen and (min-width: 64em) 
+        @media screen and (min-width: 40em) and (max-width: 63.99em) // min-width: 640px to max-width: 1023px  
             @content
     @else if $size == medium-up
-        @media screen and (min-width: 40em)
+        @media screen and (min-width: 40em) //min-width: 640px
             @content
-
-
+    @else if $size == large
+        @media screen and (min-width: 64em) and (max-width: 94.99em)  // min-width: 1024px to max-width: 1519px
+            @content
+    @else if $size == Xlarge
+        @media screen and (min-width: 95em) //min-width: 1520px
+            @content
     
 
 @mixin clearfix  
@@ -25,16 +32,82 @@ $grid-gutter-width: 30px !default;
         clear: both
  
 @for $i from 1 through 12
+    .col-#{$i}
+        float: left
+        width: percentage(($i/12))
+    .col-Xl-#{$i}
+        float: left
+        width: percentage(($i/12))
     .col-lg-#{$i}
         float: left
         width: percentage(($i/12))
     .col-md-#{$i}
-        @include size(medium)
-            float: left
-            width: percentage(($i/12))
+        float: left
+        width: percentage(($i/12))
     .col-sm-#{$i}
+        float: left
+        width: percentage(($i/12))
+
+@for $m from 1 through 6
+    .m-#{$m}
         @include size(small)
-            float: left
-            width: percentage(($i/12))
+            margin: 0 !important
+        @include size(Xsmall)
+            margin: 0 !important
+    .ml-#{$m}
+        @include size(small)
+            margin: 0 !important
+        @include size(Xsmall)
+            margin: 0 !important
+    .mr-#{$m}
+        @include size(small)
+            margin: 0 !important
+        @include size(Xsmall)
+            margin: 0 !important
+    .mb-#{$m}
+        @include size(small)
+            margin: 0 !important
+        @include size(Xsmall)
+            margin: 0 !important
+    .mt-#{$m}
+        @include size(small)
+            margin: 0 !important
+        @include size(Xsmall)
+            margin: 0 !important
+    .p-#{$m}
+        @include size(small)
+            padding: 0 !important
+        @include size(Xsmall)
+            padding: 0 !important
+    .pl-#{$m}
+        @include size(small)
+            padding: 0 !important
+        @include size(Xsmall)
+            padding: 0 !important
+    .pr-#{$m}
+        @include size(small)
+            padding: 0 !important
+        @include size(Xsmall)
+            padding: 0 !important
+    .pt-#{$m}
+        @include size(small)
+            padding: 0 !important
+        @include size(Xsmall)
+            padding: 0 !important
+    .pb-#{$m}
+        @include size(small)
+            padding: 0 !important
+        @include size(Xsmall)
+            padding: 0 !important
+
+
+
+
+
+
+
+
+
+
 
 

@@ -17,8 +17,8 @@
         <section class="container-fluid ml-4">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    <div class="hours col-md-3">
-                        <ul class="col-md-1 float-left" >
+                    <div class="hours col-md-3 col-sm-12">
+                        <ul class="col-md-1 col-sm-6 float-left" >
                             <li>Monday</li>
                             <li>Tuesday</li>
                             <li>Wednesday</li>

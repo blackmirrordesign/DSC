@@ -140,7 +140,7 @@ nav
                     color: $black
                     margin-left: 10px
                     border-bottom: 1px $lightPink solid  
-
+                
 .home-search
     padding-top: 210px
     padding-bottom: 70px
@@ -156,6 +156,7 @@ nav
         display: inline-block
         clear: both
         padding-bottom: 0
+        
         
     .input-group
         background-color: $lightPink
@@ -387,6 +388,9 @@ header
             background-color: $lightYellow
             .btn
                 background-color: none !important
+        .ui-tabs
+            @include size (small-down)
+                min-width: 114%
         .ui-tabs .ui-tabs-panel
             background-color: $lightYellow
             @include size (medium)
@@ -396,7 +400,7 @@ header
                 min-width: 27em
                 margin-left: -50px
             @include size (Xsmall)
-                min-width: 134%
+                min-width: 20em
                 margin-left: -48px
 
         .ui-tabs .ui-tabs-nav, .ui-widget.ui-widget-content
@@ -423,11 +427,11 @@ header
                 border: 0
                 padding-bottom: 0
                 @include size (medium)
-                    min-width: 150px
-                @include size (small)
                     min-width: 100px
+                @include size (small)
+                    min-width: 80px
                 @include size (Xsmall)
-                    min-width: 70px
+                    min-width: 20px
             .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited
                 background-color: #f6ead9 !important
                 min-width: 200px
@@ -436,11 +440,11 @@ header
                 border-radius: 10px 10px 0 0
                 font-weight: bold
                 @include size (medium)
-                    min-width: 150px
-                @include size (small)
                     min-width: 100px
+                @include size (small)
+                    min-width: 80px
                 @include size (Xsmall)
-                    min-width: 70px
+                    min-width: 20px
             .ui-tabs .ui-tabs-nav .ui-tabs-anchor
                 text-align: center
         .ui-state-active, .ui-widget-content .ui-state-active
@@ -451,11 +455,11 @@ header
             background-color: $gray
             border-radius: 10px 10px 0 0
             @include size (medium)
-                min-width: 150px
-            @include size (small)
                 min-width: 100px
+            @include size (small)
+                min-width: 80px
             @include size (Xsmall)
-                min-width: 70px
+                min-width: 20px
         .accordion-content 
             // max-width: 900px
             width: 90%

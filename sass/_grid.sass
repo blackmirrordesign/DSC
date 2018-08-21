@@ -18,10 +18,10 @@ $grid-gutter-width: 30px !default;
         @media screen and (min-width: 40em) //min-width: 640px
             @content
     @else if $size == large
-        @media screen and (min-width: 64em) and (max-width: 94.99em)  // min-width: 1024px to max-width: 1519px
+        @media screen and (min-width: 64em) and (max-width: 84.99em)  // min-width: 1024px to max-width: 1519px
             @content
     @else if $size == Xlarge
-        @media screen and (min-width: 95em) //min-width: 1520px
+        @media screen and (min-width: 85em) //min-width: 1520px
             @content
     
 
@@ -50,57 +50,35 @@ $grid-gutter-width: 30px !default;
 
 @for $m from 1 through 6
     .m-#{$m}
-        @include size(small)
-            margin: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             margin: 0 !important
     .ml-#{$m}
-        @include size(small)
-            margin: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             margin: 0 !important
     .mr-#{$m}
-        @include size(small)
-            margin: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             margin: 0 !important
     .mb-#{$m}
-        @include size(small)
-            margin: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             margin: 0 !important
     .mt-#{$m}
-        @include size(small)
-            margin: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             margin: 0 !important
     .p-#{$m}
-        @include size(small)
-            padding: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             padding: 0 !important
     .pl-#{$m}
-        @include size(small)
-            padding: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             padding: 0 !important
     .pr-#{$m}
-        @include size(small)
-            padding: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             padding: 0 !important
     .pt-#{$m}
-        @include size(small)
-            padding: 0 !important
-        @include size(Xsmall)
+        @include size(small-down)
             padding: 0 !important
     .pb-#{$m}
-        @include size(small)
+        @include size(small-down)
             padding: 0 !important
-        @include size(Xsmall)
-            padding: 0 !important
-
-
 
 
 
